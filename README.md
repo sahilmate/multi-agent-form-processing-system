@@ -54,6 +54,7 @@ The frontend is a Next.js application that provides a user interface to interact
     The frontend will be available at `http://localhost:3000`. It is pre-configured to connect to the backend running on port 8000.
 
 ## Architecture Diagram 
+```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                                                                     │
 │                       Multi-Agent Form Processing System            │
@@ -101,7 +102,7 @@ The frontend is a Next.js application that provides a user interface to interact
 │                    Google Gemini 1.5 Flash API                │
 │                                                               │
 └───────────────────────────────────────────────────────────────┘
-
+```
 ## 🚢 Deployment to Google Cloud Run
 
 For the hackathon submission, we recommend deploying using GitHub Actions for better security.
