@@ -1,0 +1,54 @@
+fastapi==0.95.1
+uvicorn==0.21.1
+python-multipart==0.0.6
+pymongo==4.3.3
+python-dotenv==1.0.0
+pytesseract==0.3.10
+# Use a newer Pillow version compatible with Surya OCR
+Pillow>=10.2.0,<11.0.0
+# spacy is removed as we're using LLMs for NER instead
+requests==2.29.0
+pytest==7.3.1
+httpx==0.24.0
+# Pin pydantic to version compatible with FastAPI
+pydantic>=1.6.2,<2.0.0
+selenium==4.9.0
+webdriver-manager==3.8.6
+dnspython==2.3.0
+# Use a newer OpenCV version compatible with Surya OCR
+opencv-python>=4.9.0.80,<5.0.0.0
+numpy>=1.23.5
+
+# LLM API clients
+google-generativeai>=0.3.0
+#groq>=0.4.0
+#anthropic>=0.5.0
+#ollama>=0.1.0
+aiohttp>=3.8.5
+
+# Authentication and security
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.6
+email-validator>=2.0.0
+motor>=3.1.1
+pydantic[email]>=1.10.7
+PyJWT>=2.6.0
+
+# Performance and utilities
+redis>=4.5.5
+jinja2>=3.1.2
+python-jose>=3.3.0
+secure>=0.3.0
+tenacity>=8.2.2
+backoff>=2.2.1
+prometheus-client>=0.17.0
+structlog>=23.1.0
+aiocache>=0.12.1
+google-adk>=1.4.2
+#google-agent-kit
+
+# For Surya OCR installation (best results):
+# pip install git+https://github.com/VikParuchuri/surya.git
+# OR:
+# pip install surya-ocr
